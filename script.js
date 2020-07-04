@@ -4,9 +4,9 @@
     for (var i = 0; i < n.length; i++) {
         var initial = n[i].charAt(0).toLowerCase();
         if (initial=== 'j') {
-            bye.speak(n[i]);
+            byeSpeaker.speak(n[i]);
         } else {
-            hello.speak(n[i]);
+            helloSpeaker.speak(n[i]);
         }
     }
 })();
